@@ -24,7 +24,7 @@ export const GravityForm = ({ id, title, description, fields, button, loading, s
     }
 
     return (
-        <form className="glasse_contact_form" onSubmit={onGravitySubmission}>
+        <form className="freddo_contact_form" onSubmit={onGravitySubmission}>
 
             {
                 title &&
@@ -46,7 +46,6 @@ export const GravityForm = ({ id, title, description, fields, button, loading, s
                 <input
                     type="submit"
                     value={button?.text ? button.text : "Envia tu Mensaje"}
-
                 />
             </div>
         </form>
