@@ -80,6 +80,7 @@
 
 .entry__submitted,
 .loading__container {
+    background: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
